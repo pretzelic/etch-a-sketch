@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+#main {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.empty {
+    /* border: 1px solid black; */
+    width:10px;
+    /* height: 10px; */
+    float: left;   
+}
+
+.rows {
+    display: block;
+    height:12px;
+}
+
+.active {
+    background-color: black;
+}

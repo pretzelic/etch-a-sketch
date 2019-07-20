@@ -1,5 +1,8 @@
 html, body {
     height: 100%;
+    text-align: center;
+    background-image: url("images/playground.jpg");
+    background-size: cover;
 }
 
 #main {
@@ -8,6 +11,7 @@ html, body {
     position: relative;
     display: inline-block;
     border: 1px solid black;
+    display: inline-block;
 }
 
 .empty {
@@ -15,6 +19,7 @@ html, body {
     /* width:10px; */
     /* height: 10px; */
     float: left;   
+    background-color: white;
 }
 
 .rows {
@@ -28,4 +33,21 @@ html, body {
 
 .active {
     /* background-color: black; */
+}
+
+@font-face {
+    font-family: "Brown Bag Lunch";
+    src: url("fonts/brownbaglunch.medium.ttf");
+}
+
+h1 {
+    font-family: "Brown Bag Lunch";
+    font-size: 5em;
+    margin: 0;
+}
+
+#options input {
+    height: 20px;
+    margin:0;
+    padding: 0;
 }

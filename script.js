@@ -21,8 +21,8 @@ function createBoxes() {
             let box = document.createElement("div");
             box.className = "empty";
             box.addEventListener("mouseover", changeColor);
-            styleSheets.cssRules[2].style.height = (dimensions-2) + "px";
-            styleSheets.cssRules[2].style.width = (dimensions-2) + "px";
+            styleSheets.cssRules[2].style.height = (dimensions) + "px";
+            styleSheets.cssRules[2].style.width = (dimensions) + "px";
             rows.appendChild(box);
         }
     }

@@ -3,12 +3,16 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Etch-A-Sketch</title>
+        <meta charset="UTF-8">
     </head>
     <body>
         <h1 class="title">Etch-A-Sketch</h1>
         <div id="options">
-            <input type="number" id="pixels" name="pixels" min="0" max=100>
-            <input type="button" value="Draw" onclick="size(); createBoxes(size)">
+            <input type="number" id="pixels" name="pixels" value="10" min="0" max=100>
+            <input type="button" value="Draw" onclick="createBoxes()">
+            <input type="button" value="Reset" onclick="reset()">
+            <input type="color" id="color">
+            <input type="button" id="random" value="random" onclick="random()">
         </div>
         <div id="main">
 

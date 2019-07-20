@@ -24,7 +24,6 @@ html, body {
 
 .rows {
     display: block;
-    height:12px;
 }
 
 .rows div {
@@ -49,5 +48,4 @@ h1 {
 #options input {
     height: 20px;
     margin:0;
-    padding: 0;
 }
